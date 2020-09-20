@@ -2,8 +2,10 @@
 
 @section('title','Home')
 
+
 @section('content')
-    
+@section('nav_home','active')
+ 
 
   <section class="page-section clearfix">
     <div class="container">

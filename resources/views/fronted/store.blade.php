@@ -1,6 +1,7 @@
 @extends('fronted.layouts.master')
 
 @section('title','Store')
+@section('nav_store','active')
 
 @section('content')  
 

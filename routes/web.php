@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.welcome',['name'=>'Frank']);
+    return view('fronted.welcome',['name'=>'Frank']);
 });
 
 Route::get('/index',function(){
-    return view('fronted.index');
+    return view('fronted.index');  
 })->name('home');

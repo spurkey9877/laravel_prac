@@ -17,6 +17,22 @@ Route::get('/', function () {
     return view('fronted.welcome',['name'=>'Frank']);
 });
 
+// Route::get('/{name?}', function ($name="Frank") {
+//     return view('fronted.welcome',['name'=>$name]);
+// });
+
 Route::get('/index',function(){
     return view('fronted.index');  
 })->name('home');
+
+Route::get('/about',function(){
+    return view('fronted.about');
+})->name('about');
+
+Route::get('/products',function(){
+    return view('fronted.products');
+})->name('products');
+
+Route::get('/store',function(){
+    return view('fronted.store');
+})->name('store');
